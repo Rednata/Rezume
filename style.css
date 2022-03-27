@@ -8,11 +8,17 @@ body {
 }
 
 .container{
-    max-width: 750px;
-    /* margin: auto; */
-
+    max-width: 800px;
+    margin: auto;
 }
 
+@media (max-width: 650px) {
+    .social {visibility: hidden;}
+}
+        
+    
+
+    
 
 p {line-height: 30px;}
 
@@ -96,10 +102,6 @@ table tr:nth-child(2), table tr:nth-child(3) {font-style: italic;}
 
 input, textarea {      
     background: #cb7119;
-    /* border-bottom-color: #fce9c5;
-    border-top-color: #cb7119;
-    
-    border-radius: 4px; */
     border: none;
     margin-bottom: 5px;
     
@@ -153,10 +155,8 @@ textarea.card3 {
 .text, .email{display: block;
     margin-top: 10px;
     width: 80%;
-    /* border: none; */
 }
 textarea{
-    /* border: none; */
     margin-top: 10px;
     margin-bottom: 20px;
     width: 89%;
@@ -170,8 +170,36 @@ textarea{
 }
 
 
+.footer {
+    visibility: hidden;
+    background-color: #cb7119;
+margin: 5px;
+padding-top: 20px;
+padding-bottom: 0px;
+}
 
-footer {background-color: #cb7119;
-padding: 8px;}
+@media (max-width: 650px) {
+    .footer{
+        visibility: visible;
+}
+}
 
-.footer {margin: 10px;}
+.footer h2{display: inline;
+    padding: 0px 10px 0px 30px;
+}
+.footer ul {list-style:  none;
+    display: inline;
+    padding: 0px;
+
+    width: 300px;
+    margin:0px auto;
+    
+    
+}
+
+
+
+.footer li{display: inline-block;
+}
+.footer a:hover{color: white;}
+
