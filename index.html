@@ -5,84 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="cv, html, css, js, python">
-    <menu name="description" content="My resume for find job"></menu>
+    <meta name="description" content="My resume for find job">
+    <link rel="stylesheet" href="style.css">
+
     <title>Rezume</title>
 </head>
 <body>
-    <img src="Panda.jpg" width="200px" alt="panda Po">
-    <h1>Наталья Макарова</h1>
-    <hr>
-    <p>Много лет работала в <strong>отделе продаж</strong>.
-         В настоящий момент решила полностью сменить сферу деятельности, 
-         чем вызвала огромное удивление среди своего окружения.</p>
-    <p>Люблю узнавать <em>новое</em>.
-    </p>
-    <h4>Мои увлечения</h4>
-    <ul>
-        <li>WEB</li>
-        <li>Python</li>
-        <li>sport</li>       
-    </ul>
-    <h4>Опыт работы</h4>
-    <table border="1">
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Basic</td>
-            <td>Отдел продаж</td>
-            <td>2007-2021</td>
-        </tr>
-    </table>
-
-    <h4>Обучение</h4>        
-    <table border="1">
-        <tr>
-            <th>Название курса</th>
-            <th>Образовательная платформа</th>
-            <th>Сертификат</th>
-        </tr>
-        <tr>
-            <td>Python для начинающих</td>
-            <td>Stepik.org</td>
-            <td>Да</td>
-        </tr>
-
-    </table>
-
-     <h4>Связаться со мной</h4>   
-     <form action="" method="post">
-         <label>Ваше имя:
-            <input type="text" name="name" placeholder="Введите имя">
-        </label>
-        <br>
-        <label>Ваш email:
-            <input type="email" name="'email" placeholder="Введите email">
-        </label>
-        <br>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea id="message" name="message" rows="5" placeholder="Введите сообщение"></textarea>
-        <br>
-        <input type="submit" value='Отправить!'>
-
-     </form>
-        
-
-    <h4>Список социальных сетей:</h4>
-        <br>
-        
-        <a href="#" target="_blank">Instagram</a>    
-        |        
-        <a href="#" target="_blank">Telegram</a>
-        |
-        <a href="#" target="_blank">Youtube</a>     
-        |
-        <a href="day-1.html">Day1</a>
-
-    </p>
     
+    <div class="container">
+        <div class="verh">
+            <img src="Panda.jpg" alt="panda Po">
+        
+            <div class="fortuna">
+                <h1>Наталья Макарова </h1>
+                <p>"Случайности не случайны"</p>  
+            </div>
+            
+            <div class="social">
+                <ul>
+                    <li> <a href="#" target="_blank">Instagram</a></li>
+                    <li><a href="#" target="_blank">Telegram</a></li>
+                    <li><a href="#" target="_blank">Youtube</a>     </li>
+                </ul>            
+            </div>                                     
+        </div>
+        
+        
+        <hr>
+        
+            <div class="card0">
+                <p>Много лет работала в <strong>отделе продаж</strong>.
+                    <br>
+                    В настоящий момент решила полностью сменить сферу деятельности, 
+                    чем вызвала огромное удивление среди своего окружения.</p>
+                <p>Люблю узнавать <em>новое</em>.
+                </p>
+            </div>
+            
+            <div class="card1">
+                <div class="card2">
+                    <h2>Мои увлечения</h2>
+                    <ul class="list">
+                        <li>WEB</li>
+                        <li>Python</li>
+                        <li>sport</li>       
+                    </ul>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="card2">
+                    <h2>Опыт работы</h2>
+                    <table>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Подразделение</th>
+                        <th>Год</th>
+                    </tr>
+                    <tr>
+                        <td>Sitwell</td>
+                        <td>Отдел продаж</td>
+                        <td>2005-2007</td>
+                    </tr>
+                    <tr>
+                        <td>Basic</td>
+                        <td>Отдел продаж</td>
+                        <td>2007-2021</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card2">
+                    <h2>Обучение</h2>        
+                    <table>
+                        <tr>
+                            <th>Название курса</th>
+                            <th>Образовательная платформа</th>
+                            <th>Сертификат</th>
+                        </tr>
+                        <tr>
+                            <td>Python для начинающих</td>
+                            <td>Stepik.org</td>
+                            <td>Да</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            
+
+            <div class="card1">
+                <div class="card2">
+                    <h2>Связаться со мной</h2>   
+                    <form action="" method="post">
+
+                        <div class="card4">
+                            <div class="card3">
+                                <label for="name">Ваше имя:</label>
+                                    <br>
+                                    
+                                    <input type="text" class="text" id="name" name="name" placeholder="Введите имя">
+                                
+                            </div>
+                                
+                            <div class="card3">
+                                <label for="email">Ваш email:</label>
+                                    <br>
+                                    <input type="email" class='email' id="email" name="'email" placeholder="Введите email">
+                                
+                            </div>
+                        </div>
+
+                        
+                        <br>
+                        <label for="message">Ваше сообщение:</label>
+                        <br>
+                        <textarea id="message" class='card3' name="message" rows="1" placeholder="Введите сообщение"></textarea>
+                        <br>
+                        <input type="submit" class='btn' value='Отправить!'>
+
+                    </form>
+                </div>
+
+            </div>
+        
+        
+    </div>
 </body>
 </html>
